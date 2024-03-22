@@ -1781,8 +1781,8 @@ input:checked + .toggle-bg {
   background-color: rgb(142 167 0 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#8EA700\]\/\[0\.1\] {
-  background-color: rgb(142 167 0 / 0.1);
+.bg-\[\#8EA700\]\/\[0\.3\] {
+  background-color: rgb(142 167 0 / 0.3);
 }
 
 .bg-\[\#AAC900\]\/\[0\.1\] {
@@ -2578,8 +2578,9 @@ input:checked + .toggle-bg {
   background-image: none;
 }
 
-:is(.dark .dark\:bg-\[url\(\'\/assets\/images\/hero-mobil\.png\'\)\]) {
-  background-image: url('/assets/images/hero-mobil.png');
+:is(.dark .dark\:text-black) {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 :is(.dark .dark\:text-blue-500) {
