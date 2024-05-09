@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        comfortaa: ['"Comfortaa"', 'sans-serif']
+        Manrope: ['"Manrope"', 'sans-serif']
       },
       keyframes: {
         'wiggle-right': {
